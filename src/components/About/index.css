@@ -1,0 +1,26 @@
+.about {
+  padding: 10%;
+}
+
+.section-title {
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.about-img {
+  width: 290px;
+  height: 500px;
+}
+
+.about-text {
+  margin-left: 20px;
+}

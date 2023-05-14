@@ -1,0 +1,49 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-container {
+  height: 70vh;
+  background: linear-gradient(rgba(141, 39, 174, 0.3), rgba(141, 39, 174, 0.5)),
+    url('https://res.cloudinary.com/deubpbymb/image/upload/v1683985009/library-img-crop_y5gfqh.jpg')
+      center/cover no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-content {
+  margin-bottom: 80px;
+}
+
+.header-title {
+  font-size: 40px;
+  color: white;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.header-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  max-width: 770px;
+}
+
+@media screen and (max-width: 767px) {
+  .header-container {
+    height: 70vh;
+    background: linear-gradient(
+        rgba(141, 39, 174, 0.3),
+        rgba(141, 39, 174, 0.5)
+      ),
+      url('https://res.cloudinary.com/deubpbymb/image/upload/v1683985009/library-img-crop_y5gfqh.jpg')
+        center/cover no-repeat;
+    margin-top: 20px;
+  }
+}
